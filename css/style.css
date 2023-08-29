@@ -9,3 +9,18 @@
 .navbarBG{
     background: #ffaef4;
 }
+
+.customFooter{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+.customFooter:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.footerBG{
+    background: #fff5af;
+}
