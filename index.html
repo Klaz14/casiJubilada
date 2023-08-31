@@ -113,187 +113,245 @@
         </div>
       </nav>
     </header>
-    <main class="font row m-0">
+    <main class="font row justify-content-center m-0">
       <h1 class="text-center py-3 col-12">Nuestros Temas</h1>
-      
-        <div class="col-md-4 text-center px-1 customTitleSize">
-          <h2>Viajes</h2>
-          <div
-            id="carouselViajes"
-            class="carousel carousel-dark slide"
-            data-bs-ride="carousel"
-          >
-            <div class="carousel-indicators">
-              <button
-                type="button"
-                data-bs-target="#carouselViajes"
-                data-bs-slide-to="0"
-                class="active"
-                aria-current="true"
-                aria-label="Slide 1"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselViajes"
-                data-bs-slide-to="1"
-                aria-label="Slide 2"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselViajes"
-                data-bs-slide-to="2"
-                aria-label="Slide 3"
-              ></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="4000">
-                <a href="">
-                  <img
-                    src="resources/img1.jpg"
-                    class="d-block w-100"
-                    alt="..."
-                  />
-                </a>
-                <div class="carousel-caption d-none d-md-block"></div>
-              </div>
-              <div class="carousel-item" data-bs-interval="4000">
-                <a href="">
-                  <img
-                    src="resources/img2.jpg"
-                    class="d-block w-100"
-                    alt="..."
-                  />
-                </a>
-                <div class="carousel-caption d-none d-md-block"></div>
-              </div>
-              <div class="carousel-item" data-bs-interval="4000">
-                <a href="">
-                  <img
-                    src="resources/img4.jpg"
-                    class="d-block w-100"
-                    alt="..."
-                  />
-                </a>
-                <div class="carousel-caption d-none d-md-block"></div>
-              </div>
-            </div>
+
+      <div class="col-md-3 text-center px-1 customTitleSize">
+        <h2>Viajes</h2>
+        <div
+          id="carouselViajes"
+          class="carousel carousel-dark slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
             <button
-              class="carousel-control-prev"
               type="button"
               data-bs-target="#carouselViajes"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
             <button
-              class="carousel-control-next"
               type="button"
               data-bs-target="#carouselViajes"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselViajes"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
           </div>
-          <!-- Aqui agregar cosas en la columna 1 -->
-        </div>
-        <div class="col-md-4 text-center px-1 customTitleSize">
-          <h2>Manualidades</h2>
-          <div
-            id="carouselManualidades"
-            class="carousel carousel-dark slide"
-            data-bs-ride="carousel"
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="4000">
+              <a href="">
+                <img src="resources/img1.jpg" class="d-block w-100" alt="..." />
+              </a>
+              <div class="carousel-caption d-none d-md-block"></div>
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+              <a href="">
+                <img src="resources/img2.jpg" class="d-block w-100" alt="..." />
+              </a>
+              <div class="carousel-caption d-none d-md-block"></div>
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+              <a href="">
+                <img src="resources/img4.jpg" class="d-block w-100" alt="..." />
+              </a>
+              <div class="carousel-caption d-none d-md-block"></div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselViajes"
+            data-bs-slide="prev"
           >
-            <div class="carousel-indicators">
-              <button
-                type="button"
-                data-bs-target="#carouselManualidades"
-                data-bs-slide-to="0"
-                class="active"
-                aria-current="true"
-                aria-label="Slide 1"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselManualidades"
-                data-bs-slide-to="1"
-                aria-label="Slide 2"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselManualidades"
-                data-bs-slide-to="2"
-                aria-label="Slide 3"
-              ></button>
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselViajes"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!-- Aqui agregar cosas en la columna 1 -->
+        <div class="card mb-3 cardBG">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <img src="resources/img3.jpg" class="img-fluid" alt="..." />
             </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="4000">
-                <a href="">
-                  <img
-                    src="resources/img1.jpg"
-                    class="d-block w-100"
-                    alt="..."
-                  />
-                </a>
-                <div class="carousel-caption d-none d-md-block"></div>
-              </div>
-              <div class="carousel-item" data-bs-interval="4000">
-                <a href="">
-                  <img
-                    src="resources/img2.jpg"
-                    class="d-block w-100"
-                    alt="..."
-                  />
-                </a>
-                <div class="carousel-caption d-none d-md-block"></div>
-              </div>
-              <div class="carousel-item" data-bs-interval="4000">
-                <a href="">
-                  <img
-                    src="resources/img4.jpg"
-                    class="d-block w-100"
-                    alt="..."
-                  />
-                </a>
-                <div class="carousel-caption d-none d-md-block"></div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h3 class="card-title">Titulo</h3>
+                <p class="card-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Distinctio soluta nihil delectus dolore! Vel dolore excepturi
+                  possimus aut praesentium fuga.
+                </p>
               </div>
             </div>
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselManualidades"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselManualidades"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
-            </button>
           </div>
         </div>
-          <!-- Aqui agregar cosas en la columna 2 -->
+        <!--  -->
+        <div class="card mb-3 cardBG">
+          <img src="resources/img2.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Titulo</h5>
+            <p class="card-text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, at
+              quam iusto laborum quia aut unde nostrum eius neque nesciunt eos
+              suscipit eaque expedita molestiae.
+            </p>
+          </div>
+        </div>
+        <!--  -->
+        <div class="card mb-3 cardBG">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <img src="resources/img3.jpg" class="img-fluid" alt="..." />
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h3 class="card-title">Titulo</h3>
+                <p class="card-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Distinctio soluta nihil delectus dolore! Vel dolore excepturi
+                  possimus aut praesentium fuga.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="col-md-4 text-center px-1 customTitleSize">
+      <div class="col-md-3 text-center px-1 customTitleSize">
+        <h2>Manualidades</h2>
+        <div
+          id="carouselManualidades"
+          class="carousel carousel-dark slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselManualidades"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselManualidades"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselManualidades"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="4000">
+              <a href="">
+                <img src="resources/img1.jpg" class="d-block w-100" alt="..." />
+              </a>
+              <div class="carousel-caption d-none d-md-block"></div>
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+              <a href="">
+                <img src="resources/img2.jpg" class="d-block w-100" alt="..." />
+              </a>
+              <div class="carousel-caption d-none d-md-block"></div>
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+              <a href="">
+                <img src="resources/img4.jpg" class="d-block w-100" alt="..." />
+              </a>
+              <div class="carousel-caption d-none d-md-block"></div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselManualidades"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselManualidades"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <!-- Aqui agregar cosas en la columna 2 -->
+        <div class="card mb-3 cardBG">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <img src="resources/img3.jpg" class="img-fluid" alt="..." />
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h3 class="card-title">Titulo</h3>
+                <p class="card-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Distinctio soluta nihil delectus dolore! Vel dolore excepturi
+                  possimus aut praesentium fuga.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+        <div class="card mb-3 cardBG">
+          <img src="resources/img2.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Titulo</h5>
+            <p class="card-text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, at
+              quam iusto laborum quia aut unde nostrum eius neque nesciunt eos
+              suscipit eaque expedita molestiae.
+            </p>
+          </div>
+        </div>
+        <!--  -->
+        <div class="card mb-3 cardBG">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <img src="resources/img3.jpg" class="img-fluid" alt="..." />
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h3 class="card-title">Titulo</h3>
+                <p class="card-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Distinctio soluta nihil delectus dolore! Vel dolore excepturi
+                  possimus aut praesentium fuga.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 text-center px-1 customTitleSize">
         <h2>Nuestros Intereses</h2>
         <div
           id="carouselIntereses"
@@ -361,7 +419,54 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-          <!-- Aqui agregar cosas en la columna 3 -->
+        <!-- Aqui agregar cosas en la columna 3 -->
+        <div class="card mb-3 cardBG">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <img src="resources/img3.jpg" class="img-fluid" alt="..." />
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h3 class="card-title">Titulo</h3>
+                <p class="card-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Distinctio soluta nihil delectus dolore! Vel dolore excepturi
+                  possimus aut praesentium fuga.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+        <div class="card mb-3 cardBG">
+          <img src="resources/img2.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Titulo</h5>
+            <p class="card-text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, at
+              quam iusto laborum quia aut unde nostrum eius neque nesciunt eos
+              suscipit eaque expedita molestiae.
+            </p>
+          </div>
+        </div>
+        <!--  -->
+        <div class="card mb-3 cardBG">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <img src="resources/img3.jpg" class="img-fluid" alt="..." />
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h3 class="card-title">Titulo</h3>
+                <p class="card-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Distinctio soluta nihil delectus dolore! Vel dolore excepturi
+                  possimus aut praesentium fuga.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
     <footer class="font py-3 footerBG">
