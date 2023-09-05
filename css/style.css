@@ -38,8 +38,25 @@ body{
     background-color: #fff5af;
 }
 
-.customTitleSize{
+.customLetterSize{
     font-size: 30px;
+}
+
+.customh1{
+    font-size: 50px;
+    font-weight: bold;
+    border: 2px solid #ffaef4;
+}
+
+.customh2{
+    font-size: 40px;
+    font-weight: bold;
+    border: 2px solid #ffaef4;
+}
+
+.customh3{
+    font-weight: bold;
+    text-decoration: underline solid #ffaef4;
 }
 
 .customContainer{
