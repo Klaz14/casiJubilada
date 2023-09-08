@@ -7,8 +7,14 @@ body{
     font-family: 'Dancing Script', cursive;
 }
 
+.customNavbarIcon{
+    font-size: 60px;
+    font-weight: bold;
+}
+
 .customNavbarSize{
-    font-size: 48px;
+    font-size: 36px;
+    font-weight: bold;
 }
 
 .navbarBG{
